@@ -316,6 +316,8 @@ h6 {
 }
 
 .profile-list {
+  position: relative;
+
   display: flex;
 
   justify-content: space-between;
@@ -326,6 +328,25 @@ h6 {
 
   max-width: 100%;
   height: auto;
+}
+
+.profile-list .description-block {
+  position: absolute;
+  transform: translateY(-100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 370px;
+  height: 70px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.profile-list .description-text {
+  color: var(--primary-bg-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.15;
 }
 
 /* Staff */
