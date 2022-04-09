@@ -71,11 +71,11 @@ h6 {
 
 @keyframes menuUnderline {
   0% {
-    transform: translateY(28px) scaleX(100%);
+    transform: translateY(29px) scaleX(100%);
   }
 
   100% {
-    transform: translateY(28px) scaleX(50%);
+    transform: translateY(29px) scaleX(50%);
   }
 }
 
@@ -142,7 +142,7 @@ h6 {
 
 .link.current::after {
   position: absolute;
-  transform: translateY(28px) scaleX(100%);
+  transform: translateY(29px) scaleX(100%);
 
   display: block;
   content: "";
